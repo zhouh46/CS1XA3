@@ -3,8 +3,8 @@
 # 1. Check if local is up to date and print the result #
 
 $(git fetch origin)
-localG = $(git rev-parse master)
-remoteG = $(git rev-parse remote/master)
+localG = $(git rev-parse HEAD)
+remoteG = $(git rev-parse @{u})
 if [$localG == $remoteG]
 then
 	echo 'Up to date'
