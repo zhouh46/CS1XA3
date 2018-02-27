@@ -1,7 +1,5 @@
 #!/bin/bash
-
 # 1. Check if local is up to date and print the result #
-
 $(git fetch origin)
 localG = $(git rev-parse HEAD)
 remoteG = $(git rev-parse @{u})
@@ -13,7 +11,6 @@ else
 fi
 
 # End #
-
 
 # 2. Puts all uncommitted changes in a file changes.log #
 
