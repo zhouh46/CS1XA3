@@ -1,9 +1,9 @@
 #!/bin/bash
 # 1. Check if local is up to date and print the result #
 $(git fetch origin)
-localG = $(git rev-parse HEAD)
-remoteG = $(git rev-parse @{u})
-if [$localG == $remoteG]
+localRepo = $(git rev-parse HEAD)
+remoteRepo = $(git rev-parse @{u})
+if [$localRepo == $remoteRepo]
 then
 	echo 'Up to date'
 else
