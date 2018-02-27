@@ -28,8 +28,8 @@ grep -r --exclude=todo.log "#TODO" . >> todo.log
 # End #
 
 # 4. Checks all haskell files for syntax errors and puts the results into error.log #
-
-ghc -fno-code "*.hs" &>> error.log
+shopt -s nullglob
+find. -type f -name "*.hs" -exec ghc -fno-code {} \; &> error.log
 
 # End #
 
