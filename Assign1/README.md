@@ -15,6 +15,6 @@
   >- The script will run through all these parts automatically until the last part, which requires users to choose if needed.
 
 # References
-  >- The first function was inspired and modified from a post by *Neil Mayhew* on Stack Overflow, and here is the [link](https://stackoverflow.com/questions/3258243/check-if-pull-needed-in-git)
+  >- The first function was inspired and modified from a post by *Neil Mayhew* on Stack Overflow, and here is the [link](https://stackoverflow.com/questions/3258243/check-if-pull-needed-in-git). I was trying to use git status to check if local is up to date, but I haven't yet figured out the syntax, so I just uses another method, which is comparing SHA1, but it doesn't always work well.
   
   >- The rest part of the code are basically made by basic git command and hints from my other friends.
