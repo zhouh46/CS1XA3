@@ -39,3 +39,5 @@ read -p  "Would you like to add, commit and push all of the files? (yes/no) " in
       git commit -a -m "Initial Commit"
       git push
       echo "Local repo updated"
+   else
+      echo "Cancelled"
