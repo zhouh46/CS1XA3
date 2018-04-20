@@ -12,6 +12,6 @@ The codes are basically base on these samples which made by our instructor: *Cur
   - [ExprTest.hs](http://www.cas.mcmaster.ca/~dalvescb/Code/ExprTest.hs)
   - [CS1XA3 Course Website --Owned by *Curtis D'Alves*](http://www.cas.mcmaster.ca/~dalvescb/)
 
-After that, I added *sin, cos, log, exp expresssion*, as well as did some changes to other four files to make it work properly. Details and comments are inside the codes and the documentation. Special thanks to my buddy as well as [Hoogle](https://www.haskell.org/hoogle/) for helping me out with some of the project.
+After that, I added *sin, cos, log, exponent expressions*, as well as did some changes to other four files to make it work properly. Details and comments are inside the codes and the documentation. Special thanks to my buddy as well as [Hoogle](https://www.haskell.org/hoogle/) for helping me out with some of the project.
 
 **Kevin Zhou**
