@@ -12,6 +12,6 @@ The codes are basically base on these samples which made by our instructor, link
   - [ExprTest.hs](http://www.cas.mcmaster.ca/~dalvescb/Code/ExprTest.hs)
 
 
-After that, I added *sin, cos, log, exp expresssion*, as well as did some changes to other four files to make it work properly. Details and comments are inside the codes and the documentation.
+After that, I added *sin, cos, log, exp expresssion*, as well as did some changes to other four files to make it work properly. Details and comments are inside the codes and the documentation. Special thanks to my buddy helping me out with some of the parser part.
 
 **Kevin Zhou**
